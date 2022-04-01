@@ -1,8 +1,6 @@
-number = int(input("Enter an integer: "))
+number = int(input("Enter an integer: ")) 
 
-y = number % 2
-
-if y == 0:
+if number % 2 == 0:
     print("The number is even.")
 else:
     print("The number is odd.")
